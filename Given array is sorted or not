@@ -1,0 +1,16 @@
+class Main{
+	public static void main(String[] args) {
+	    int[] a={6,1,2,3,4,6};
+	   
+	    boolean idsorted=true;
+	    for(int i=1;i<a.length-1;i++){
+	        if(a[i]<a[i-1]){
+	            
+	            idsorted=false;
+	            break;
+	            
+	        }}
+	          System.out.println(idsorted);
+	        
+	    }
+	}
